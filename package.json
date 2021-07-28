@@ -9,7 +9,8 @@
   ],
   "types": "lib/index.d.ts",
   "engines": {
-    "node": "^12 || ^14 || >=16"
+    "node": "^12 || ^14 || >=16",
+    "npm": ">=7"
   },
   "repository": {
     "type": "git",

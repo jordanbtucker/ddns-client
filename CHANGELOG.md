@@ -12,6 +12,10 @@ and this project adheres to
 
 - Repository information to package.json.
 
+### Changed
+
+- Updated to npm@7.
+
 ## [0.2.1] - 2021-07-28
 
 ### Added
