@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- Handling update responses in the CLI.
+
 ## [0.1.1] - 2021-07-28
 
 ### Fixed
