@@ -1,0 +1,41 @@
+{
+  "name": "ddns-client",
+  "version": "0.0.0",
+  "description": "A dynamic DNS client for Dynamic DNS Update API compatible services like DynDNS and Google Domains",
+  "main": "lib",
+  "bin": "lib/cli.js",
+  "files": [
+    "lib"
+  ],
+  "types": "lib/index.d.ts",
+  "engines": {
+    "node": "^12 || ^14 || >=16"
+  },
+  "scripts": {
+    "coverage": "run-s -c tap tap-coverage",
+    "eslint": "eslint --fix .",
+    "lint": "run-s eslint prettier",
+    "prettier": "prettier --loglevel warn --write **/*.{babelrc,css,html,js,json,jsx,md,scss,ts,tsx,yml}",
+    "preversion": "npm test",
+    "start": "node lib",
+    "tap": "tap test -R spec",
+    "tap-coverage": "tap --coverage-report html",
+    "test": "run-s lint tap"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^11.1.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.3.2",
+    "tap": "^15.0.9"
+  }
+}
