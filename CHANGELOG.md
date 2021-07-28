@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- IPv6 detection.
+
 ## [0.1.0] - 2021-07-28
 
 ### Added
