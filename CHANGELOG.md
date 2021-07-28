@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Support for logging in the CLI.
+
 ### Fixed
 
 - Handling update responses in the CLI.
