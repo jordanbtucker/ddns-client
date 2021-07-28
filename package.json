@@ -33,11 +33,9 @@
     "tap-coverage": "tap --coverage-report html",
     "test": "run-s lint tap"
   },
-  "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
-    "cross-env": "^7.0.3",
     "eslint": "^7.31.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",

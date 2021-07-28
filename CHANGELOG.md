@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Changed
+
+- Removed unnecessary dev dependency cross-env.
+
 ## [0.2.2] - 2021-07-28
 
 ### Added
