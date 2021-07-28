@@ -11,7 +11,16 @@
   "engines": {
     "node": "^12 || ^14 || >=16"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanbtucker/ddns-client.git"
+  },
+  "author": "Jordan Tucker <jordanbtucker@gmail.com> (https://github.com/jordanbtucker)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jordanbtucker/ddns-client/issues"
+  },
+  "homepage": "https://github.com/jordanbtucker/ddns-client#readme",
   "scripts": {
     "coverage": "run-s -c tap tap-coverage",
     "eslint": "eslint --fix .",

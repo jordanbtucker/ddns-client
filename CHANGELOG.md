@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Added
+
+- Repository information to package.json.
+
 ## [0.2.1] - 2021-07-28
 
 ### Added
