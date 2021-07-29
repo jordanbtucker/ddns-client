@@ -11,6 +11,7 @@ and this project adheres to
 ### Changed
 
 - Removed unnecessary dev dependency cross-env.
+- Updated to husky@7.
 
 ## [0.2.2] - 2021-07-28
 
