@@ -6,8 +6,5 @@
     "plugin:promise/recommended",
     "plugin:node/recommended",
     "prettier"
-  ],
-  "parserOptions": {
-    "ecmaVersion": 2019
-  }
+  ]
 }
