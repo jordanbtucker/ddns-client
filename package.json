@@ -1,6 +1,6 @@
 {
   "name": "ddns-client",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "A dynamic DNS client for Dynamic DNS Update API compatible services like DynDNS and Google Domains",
   "main": "lib",
   "bin": "lib/cli.js",
