@@ -8,6 +8,10 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- TypeScript definition.
+
 ## [0.2.3] - 2021-07-28
 
 ### Changed

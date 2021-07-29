@@ -1,4 +1,4 @@
-type DetectAddressOptions = {
+declare type DetectAddressOptions = {
   /**
    * The URL of the IP address detection service.
    * @default 'https://domains.google.com/checkip'
@@ -17,9 +17,11 @@ type DetectAddressOptions = {
  * @param options
  * @returns A Promise that resolves with the detected IP address.
  */
-function detectAddress(options?: DetectAddressOptions): Promise<string>
+export declare function detectAddress(
+  options?: DetectAddressOptions,
+): Promise<string>
 
-type ResolveFQDNOptions = {
+declare type ResolveFQDNOptions = {
   /**
    * A list of DNS servers to use.
    * @default ['8.8.8.8', '8.8.4.4']
@@ -40,12 +42,12 @@ type ResolveFQDNOptions = {
  * @returns A Promise that resolves with a list of IP addresses for the domain
  * name.
  */
-function resolveFQDN(
+export declare function resolveFQDN(
   fqdn: string,
   options?: ResolveFQDNOptions,
 ): Promise<string[]>
 
-type UpdateFQDNOptions = {
+declare type UpdateFQDNOptions = {
   /**
    * The username for updating the domain name.
    */
@@ -100,13 +102,7 @@ type UpdateFQDNOptions = {
  * @returns A promise that resolves with either the response from the update
  * server or `false` if no update was requested.
  */
-function updateFQDN(
+export declare function updateFQDN(
   fqdn: string,
   options: UpdateFQDNOptions,
 ): Promise<string | false>
-
-export = {
-  detectAddress,
-  resolveFQDN,
-  updateFQDN,
-}
