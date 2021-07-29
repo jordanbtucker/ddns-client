@@ -1,4 +1,4 @@
 {
   "**/*.js": "eslint",
-  "**/*.{babelrc,css,html,js,json,jsx,md,scss,ts,tsx,yml}": "prettier -c"
+  "**/*": "prettier -c"
 }
